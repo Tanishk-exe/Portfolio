@@ -58,7 +58,7 @@ function Hero() {
         >
           <span className="hero-eyebrow">
             <span className="pulse" />
-            Available for AI/ML internships
+            Open to AI/ML internships & junior roles
           </span>
         </motion.div>
 
@@ -70,9 +70,11 @@ function Hero() {
         >
           Hi, I&apos;m <span className="gradient-text">{profile.name}</span>.
           <br />
-          I build intelligent
-          <br />
-          systems.
+          <span className="hero-title-secondary">
+            I build intelligent
+            <br />
+            systems.
+          </span>
         </motion.h1>
 
         <motion.div

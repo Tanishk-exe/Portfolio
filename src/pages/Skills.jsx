@@ -1,5 +1,14 @@
 import { motion } from 'framer-motion';
-import { Sparkles, Brain, Code2, Wrench } from 'lucide-react';
+import {
+  Sparkles,
+  Brain,
+  Code2,
+  Wrench,
+  Layers,
+  Database,
+  Cpu,
+  MessageSquare,
+} from 'lucide-react';
 import Reveal from '../components/Reveal.jsx';
 import { skills } from '../data/content.js';
 
@@ -8,6 +17,10 @@ const iconMap = {
   brain: Brain,
   code: Code2,
   wrench: Wrench,
+  layers: Layers,
+  database: Database,
+  cpu: Cpu,
+  message: MessageSquare,
 };
 
 export default function Skills() {
@@ -19,8 +32,7 @@ export default function Skills() {
           My <span className="gradient-text">toolbox</span>
         </h1>
         <p className="page-subtitle">
-          The languages, frameworks, and tools I reach for when building
-          AI-powered products.
+          The languages, models, frameworks, and tools I use to build AI-powered products.
         </p>
       </div>
 
